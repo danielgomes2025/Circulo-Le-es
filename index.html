@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title> Círculo Leões da Tribo | Instituto Tribo dos Leões</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-section: rgba(255, 255, 255, 0.9);
+      --text: #4a4a4a; /* Cor base para texto escuro */
+      --text-strong: #1a1a1a;
+      --accent: #c0a062; /* Dourado suave */
+      --accent-dark: #a8874a;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Lato', sans-serif;
+      font-weight: 400;
+      line-height: 1.8;
+      color: var(--text);
+      background-image: url('https://images.unsplash.com/photo-1502134249126-9f3755a50d78?q=80&w=2070&auto=format&fit=crop');
+      background-size: cover;
+      background-attachment: fixed;
+      background-color: #f4f4f4;
+    }
+    h1, h2, h3 {
+      font-family: 'Playfair Display', serif;
+      font-weight: 700;
+      color: var(--text-strong);
+    }
+    h1 { font-size: 3rem; margin-bottom: .5em; line-height: 1.2; }
+    h2 { font-size: 2.2rem; margin: 1.5em 0 .8em; padding-bottom: 10px; border-bottom: 2px solid var(--accent); }
+    
+    /* Estilos específicos para o Hero */
+    .hero h1 {
+        color: #c3e1e8; /* Cor solicitada */
+        text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6); /* Sombra para legibilidade */
+    }
+    .hero p {
+        color: #e2e8f0; /* Cor clara para o parágrafo do hero */
+        text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6); /* Sombra para legibilidade */
+    }
+
+    section { 
+      padding: 80px 8%;
+      background-color: var(--bg-section);
+      backdrop-filter: blur(3px);
+      border-bottom: 1px solid #e5e5e5;
+    }
+    .hero {
+      text-align: center;
+      padding: 100px 8% 80px;
+      background-color: transparent;
+      backdrop-filter: none;
+      border-bottom: none;
+    }
+    .hero .icon {
+      font-size: 64px;
+      color: var(--accent);
+      margin-bottom: 20px;
+    }
+    .cta-btn {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 14px 40px;
+      background: var(--accent);
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: 700;
+      transition: .3s;
+      border: 2px solid var(--accent);
+    }
+    .cta-btn:hover {
+      background: var(--accent-dark);
+      border-color: var(--accent-dark);
+    }
+    ul { 
+      list-style: none;
+      margin-top: .8em;
+    }
+    li { 
+      margin: .6em 0; 
+      padding-left: 1.8em;
+      position: relative;
+    }
+    li::before {
+      content: '✓';
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+      font-weight: 700;
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+    strong {
+      color: var(--text-strong);
+      font-weight: 700;
+    }
+    .grid {
+      display: grid;
+      gap: 40px;
+    }
+    @media(min-width: 900px) {
+      .grid-2 { grid-template-columns: 1fr 1fr; }
+    }
+    footer {
+      text-align: center;
+      padding: 40px 8%;
+      font-size: .9rem;
+      background: rgba(45, 55, 72, 0.9); /* Cinza escuro com transparência */
+      color: #e2e8f0;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="icon">🦁</div>
+    <h1>Círculo Leões da Tribo</h1>
+    <p>Um conselho de líderes para cocriar o destino da Egrégora da Tribo dos Leões.</p>
+    <a href="https://wa.me/5511989644235" target="_blank" class="cta-btn">Solicitar Convite</a>
+  </section>
+
+  <!-- VISÃO GERAL -->
+  <section>
+    <h2>Visão Geral</h2>
+    <p>O Círculo Leões da Tribo reúne doze patronos que formam o <strong>Círculo Sagrado</strong>, o corpo consultivo que sustenta e orienta a egrégora do Instituto. O propósito é conceder a líderes de grande realização poder de decisão, experiências xamânicas singulares e um legado espiritual perene.</p>
+  </section>
+
+  <!-- CONTRIBUIÇÃO -->
+  <section>
+    <h2>Contribuição Mensal</h2>
+    <p>O valor da contribuição é fixo e acordado em reunião privada. A sua manutenção garante:</p>
+    <ul>
+      <li>Assento ativo na Mesa Diretora, com direito a voto.</li>
+      <li>Acesso integral a todos os benefícios do programa.</li>
+    </ul>
+  </section>
+
+  <!-- BENEFÍCIOS -->
+  <section>
+    <h2>Benefícios Exclusivos</h2>
+    <div class="grid grid-2">
+      <div>
+        <ul>
+          <li>Assento vitalício (condicionado à contribuição).</li>
+          <li>Cerimônia de Investidura com <em>Códice do Leão Dourado</em>.</li>
+          <li>Consagração do nome no <strong>Jardim de Maria</strong>, local sagrado de ativações e rezos.</li>
+          <li>Três Reuniões Híbridas Anuais para rituais, canalizações e deliberações.</li>
+          <li>Título <strong>“Leão Guardião da Aurora”</strong> e medalhão consagrado.</li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li><em>Cápsula Temporal Energética</em>: intenção a ser reativada em 12 anos.</li>
+          <li>Publicação anual <em>“Vozes do Leão”</em> com ensaios dos patronos.</li>
+          <li>Mural dos Fundadores no Jardim de Maria e página exclusiva no site.</li>
+          <li>Participação prioritária em todos os rituais como Guardião de Portais.</li>
+          <li>Mentoria individual mensal com Jeff.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESPONSABILIDADES -->
+  <section>
+    <h2>Papéis e Responsabilidades</h2>
+    <ul>
+      <li>Oferecer insights, rede de contatos e apoio a projetos socioespirituais.</li>
+      <li>Zelar pelo sigilo dos rituais e pela coerência vibracional da egrégora.</li>
+      <li>Atuar, quando solicitado, como mentor para células regionais.</li>
+    </ul>
+  </section>
+
+  <!-- MENTORIA -->
+  <section>
+    <h2>Mentoria Mensal com Jeff</h2>
+    <p>Sessão individual de 90 minutos em formato presencial, on-line ou por linha dedicada, focada em:</p>
+    <ul>
+      <li>Alinhar a missão pessoal ao propósito da Tribo.</li>
+      <li>Orientar decisões de grande impacto.</li>
+      <li>Transmitir códigos energéticos personalizados e práticas de sustentação.</li>
+    </ul>
+  </section>
+
+  <!-- MESA DIRETORA -->
+  <section>
+    <h2>Funcionamento do Círculo</h2>
+    <ul>
+      <li>6 Reuniões Bimestrais (formato híbrido) com abertura ritualística, auditoria energética, pautas estratégicas e votação.</li>
+      <li>Canal privado para deliberações emergenciais.</li>
+    </ul>
+  </section>
+
+  <!-- CALL TO ACTION -->
+  <section id="contato">
+    <h2>Pronto para Cocriar?</h2>
+    <p>Solicite uma conversa privada para conhecer os detalhes da contribuição e iniciar o rito de seleção.</p>
+    <a href="https://wa.me/5511989644235" target="_blank" class="cta-btn">Solicitar Convite via WhatsApp</a>
+  </section>
+
+  <footer>
+    &copy; <span id="ano"></span> Instituto Tribo dos Leões &middot; Todos os direitos reservados
+  </footer>
+
+  <script>
+    /* atualiza o ano no rodapé */
+    document.getElementById('ano').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
